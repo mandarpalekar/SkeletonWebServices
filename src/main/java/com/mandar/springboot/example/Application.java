@@ -25,6 +25,7 @@ public class Application {
 	public CacheManager cacheManager(){
 		//ConcurrentMapCacheManager cacheManager = new ConcurrentMapCacheManager("greetings");
 		GuavaCacheManager cacheManager = new GuavaCacheManager("greetings");
+		System.out.println("HERE");
 		return cacheManager;
 	}
 }
